@@ -21,7 +21,7 @@ body{
     nav{
     text-align: right;
     width: 48%;
-    margin-left: 20%;
+    margin-left: 25%;
     margin-top: 5%;
     padding-bottom: 3%;
   
@@ -29,15 +29,32 @@ body{
 }
 
  .firstline{
-     margin-left: 6%;
+     margin-left: 3%;
      border: solid transparent;
      width: fit-content;
-     margin-top: -5%;
+     margin-top: -5.5%;
      font-size: larger;
      color:rgb(59, 60, 78);
      font-weight: bolder;
+     display: flex;
     
    
+}
+
+.logo{
+    
+    margin-top:4%;
+}
+
+.abu{
+    color:rgb(73,160,145);
+    
+
+}
+
+.agency{
+    color: rgb(63, 20, 4);
+
 }
 
 nav ul li {
@@ -94,9 +111,11 @@ nav ul li a{
 
 
 
+
+
 .paint{
     margin-left: 50%;
-    margin-top: -30%;
+    margin-top: -28%;
    
     
 }
@@ -105,7 +124,7 @@ nav ul li a{
     border: solid transparent;
     width: fit-content;
     margin-left: 45%;
-    margin-top: -26%;
+    margin-top: -24%;
 }
 
 .button{
@@ -243,23 +262,57 @@ nav ul li a{
 .box3 p{
     margin-left: 10%;
     color: rgb(63, 20, 4);
+    
 }
 
 .apps{
     display: flex;
     margin-left: 6%;
     margin-top: 3%;
+    padding-top: 3%;
+    padding-bottom: 2%;
     
 }
-
+.app1{
+    display: flex;
+}
+.app1 p{
+    margin-top: 3%;
+    margin-left: 15%;
+    font-size: 18px;
+}
+.iconx{
+font-size: 20px;
+}
 .app2{
-    margin-left: 24%;
+    margin-left: 18%;
+    display: flex;
+    color: grey;
+}
+
+.app2 p{
+    margin-top: 3%;
+    margin-left: 15%;
+    font-size: 18px;
+}
+.icony{
+font-size: 20px;
 }
 .app3{
-    margin-left: 24%; 
+    margin-left: 15%; 
+    display: flex;
+    margin-top: -1.5%;
+}
+.app3 p{
+    color:rgb(59, 60, 78) ;
+    font-size: 20px;
 }
 .app4{
-    margin-left: 24%; 
+    margin-left: 18%; 
+    font-size: 30px;
+    margin-top: -3.5%;
+    color:grey;
+
 }
 .Three{
     background-color: white;
@@ -300,6 +353,7 @@ nav ul li a{
     width: 33%;
     height: 300px;
     background-color: rgb(238, 249, 252);
+    
 }
 
 .boxy2{
@@ -619,6 +673,73 @@ nav ul li a{
     margin-top: -40%;
 }
 
+.icona{
+    margin-left: 8%;
+    margin-top: 19%;
+    font-size: 20px;
+    color:white;
+    border: solid blue;
+    border-radius: 50%;
+    width: 10%;
+    height: 10%;
+    background-color: blue;
+    text-align: center;
+}
+
+.x{
+    margin-top: -3%;
+}
+
+.iconb{
+    margin-left: 8%;
+    margin-top: 19%;
+    font-size: 20px;
+    color:rgb(63, 20, 4);
+    border: solid white;
+    border-radius: 50%;
+    width: 10%;
+    height: 10%;
+    background-color: white;
+    text-align: center;
+}
+
+.y{
+    margin-top: -3%;
+}
+
+.iconc{
+    margin-left: 8%;
+    margin-top: 19%;
+    font-size: 20px;
+    color:orange;
+    border: solid white;
+    border-radius: 50%;
+    width: 10%;
+    height: 10%;
+    background-color: white;
+    text-align: center;
+}
+
+.z{
+    margin-top: -3%;
+}
+
+.icon{
+    margin-left: 6%;
+    font-size: 20px;
+    color: orange;
+    margin-top:4%;
+    border: solid white;
+    border-radius: 50%;
+    background-color: white;
+    height: fit-content;
+}
+.value{
+    margin-left: -24%;
+}
+.logo2{
+    margin-left: 3%;
+}
 
     
 
