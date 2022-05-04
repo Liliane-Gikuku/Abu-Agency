@@ -11,17 +11,17 @@
  
 </head>
 <body>
-   <section class="One">
+   <section class="One" id="home">
       
          <nav class="navbar">
  
    <ul>
     
-             <li><a href="index.html">Home</a></li>
-             <li><a href="/how.html">How we work</a></li>
-             <li><a href="/services.html">Services</a></li>
+             <li><a href="#home">Home</a></li>
+             <li><a href="#how">How we work</a></li>
+             <li><a href="#service">Services</a></li>
   
-              <li><a href="#">Contacts</a></li>
+              <li><a href="#contact">Contacts</a></li>
          </ul>
         
              
@@ -104,11 +104,9 @@
    </div>
  
    <div class="app2">
-    <div class="icony">
-        <i class="fa-brands fa-cotton-bureau"></i>
-            </div>
+    
       
-       <p>Prudential</p>
+       <img src="images/pru-removebg-preview.png" width="200px" height="100px">
    </div>
  
    <div class="app3">
@@ -126,7 +124,7 @@
     
 </section> 
  
-<section class="Three">
+<section class="Three" id="service">
    <div class="title">
     
          <h5>SERVICE</h5>
@@ -174,7 +172,7 @@
        </div>
        </div>
 </div>
-<div class="title2">
+<div class="title2" id="how">
     
    <h5>HOW WE WORK</h5>
    <div class="logo3">
@@ -213,16 +211,21 @@
  
 </section>
  
-<section class="Four">
+<section class="Four" id="contact">
    <div class="subscribe">
        <h1>Sign Up for Update & Newsletter</h1>
        <h5>Your information willl be safe. So don't worry</h5>
    </div>
    <div class="block">
-       <h2>Email Address</h2>
-   </div>
+    
+    <input type="Address" class="input3" placeholder=" Enter your email address" name="address" required><br>
+ 
+    
+   
    <div class="button4">
-       <p>Subscribe</p>
+   <h4>Subscribe</h4>
+</div>
+       
    </div>
 </section>
  
@@ -237,25 +240,27 @@
 <div class="name">
    <h4>Full name</h4>
 </div>
+
+  
  
-   <div class="input">
+    <input type="Name" class="input" placeholder=" Input Your Name" name="name" required><br>
  
-       <p>Input Your Name</p>
-      </div>
   </div>
   <div class="message">
    <h4>Message</h4>
 </div>
  
-   <div class="input2">
+   
  
-       <p>Write Message...</p>
-      </div>
+    <input type="Message" class="input2" placeholder=" Write message..." name="message" required><br>
+ 
+    
   </div>
  
-  <div class="buttonx">
-   <p>Send Message</p>
-</div>
+ <div class="mes">
+    <button type="button">Send message</button></div>
+   
+
 <div class="adman4">
     <img src="images/excited-removebg-preview.png">
  </div>
