@@ -772,6 +772,14 @@ input[type=Address]{
     margin-top: 4%;
 }
 
+.navbar a:hover {
+    background-color: rgb(52, 72, 250);
+    color: white;
+    opacity: 0.9;
+    
+    padding: 10px;
+  }
+
 
 
 
