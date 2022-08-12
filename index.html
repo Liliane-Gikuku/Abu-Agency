@@ -13,6 +13,21 @@
   integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
   crossorigin="anonymous"></script>
  
+     <script>
+function SubForm (){
+    $.ajax({
+        url:'https://api.apispreadsheets.com/data/eYBGmZLDZmbUgLh5/',
+        type:'post',
+        data:$("#myForm").serializeArray(),
+        success: function(){
+          alert("Form Data Submitted :)")
+        },
+        error: function(){
+            alert("There was an error :(")
+        }
+    });
+}
+   </script>
 </head>
 <body>
    <section class="One" id="home">
@@ -259,15 +274,14 @@
   </div>
   <div class="message">
    <h4>Message</h4>
-   <span role="alert" id="nameError" aria-hidden="true">
+     <input type="message" class="input2" placeholder=" Write message..." name="message" id="message" required maxlength="100"><br>
+   
 
-</span>
 </div>
  
    
  
-    <input type="Message" class="input2" placeholder=" Write message..." name="message" id="message" required maxlength="100"><br>
-   
+    
  
     
   </div>
@@ -285,21 +299,7 @@
     <img src="images/excited-removebg-preview.png">
  </div>
    
-   <script>
-function SubForm (){
-    $.ajax({
-        url:'https://api.apispreadsheets.com/data/mv3xwWP5MtMNNta4/',
-        type:'post',
-        data:$("#myForm").serializeArray(),
-        success: function(){
-          alert("Form Data Submitted :)")
-        },
-        error: function(){
-            alert("There was an error :(")
-        }
-    });
-}
-   </script>
+ 
 
 </section>
 </body>
