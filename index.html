@@ -8,6 +8,10 @@
    <link rel="stylesheet" href="style.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
    <script src="https://kit.fontawesome.com/5bc8180754.js" crossorigin="anonymous"></script>
+   <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
  
 </head>
 <body>
@@ -239,10 +243,7 @@
    </div>
    <h1>Have a Project in mind? <br> Let's get to work</h1>
   </div>
-  <form>
-
-    <form action="https://formsubmit.co/lilkundiro@gmail.com" method="post"></form>
-    <input type="hidden"name="_next"value="https://lilkundiro@gmail.com//thankyou.html">
+  <div class="form" id="myForm">
 
 <div class="name">
    <h4>Full name</h4>
@@ -270,11 +271,12 @@
  
     
   </div>
+      </form>
  
  <div class="mes">
-    <button type="button">Send message</button></div>
+    <button type="button" click "SubForm()">Send message</button></div>
 
-</form>
+
 
    
    
@@ -282,6 +284,22 @@
 <div class="adman4">
     <img src="images/excited-removebg-preview.png">
  </div>
+   
+   <script>
+function SubForm (){
+    $.ajax({
+        url:'https://api.apispreadsheets.com/data/mv3xwWP5MtMNNta4/',
+        type:'post',
+        data:$("#myForm").serializeArray(),
+        success: function(){
+          alert("Form Data Submitted :)")
+        },
+        error: function(){
+            alert("There was an error :(")
+        }
+    });
+}
+   </script>
 
 </section>
 </body>
